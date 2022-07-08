@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	height:100%;
+	width:100%;
+	font-size : large;
+	margin-left : auto;
+	margin-right : auto;
+	line-height: 1.8;
+	color: #fff;
+	z-index: 1;
+	font-family: /*'Zen Antique'*/'游明朝','Yu Mincho','YuMincho','Hiragino Mincho ProN','HGS明朝E','メイリオ','Meiryo',serif;
+}
+a:hover{
+	color: #999;
+}
+.fontsizel{
+	font-size: large;
+}
+.color333{
+	color: #ddd;
+}
+.color999{
+	color: #999;
+}
+.xlarge{
+	font-size: x-large;
+}
+.paddingright1em{
+	padding-right: 1em;
+}
+.paddingbottom1em{
+	padding-bottom: 1em;
+}
+.paddingleft1em{
+	padding-left: 1em;
+}
+.width1000{
+	width: 95%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.h2{
+	font-size: 4em;
+	color: #999;
+}
+.divwrap{
+	margin: 150px auto 0;
+}
+.headline{
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	border-bottom: 2px solid #fff;
+}/*
+.headline::after{
+	position: absolute;
+	content: "";
+	width: 30px;
+	border-bottom: 2px solid #000;
+	animation: 3s infinite forwards expansion;
+}
+@keyframes expansion {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}*/
+.textright{
+	text-align: right;
+}
+#stage{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	background-color: #000;
+	z-index: -1;
+}
+.indeximgdiv{
+	position: absolute;
+	width: 100px;
+	height: auto;
+	background-color: #fff;
+}
+.indeximg{
+	width: 100%;
+}
+.indextopwrapper{
+	position: relative;
+	height: 100vh;
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #fff
+}
+.indexh1{
+	position: absolute;
+	bottom: 0.5em;;
+	left: 0;
+	font-size: 10vw;
+	font-weight: 500;
+}
+.mapwrap{
+	width: 95%;
+	max-width: 1000px;
+}
+.mapiframe{
+ 	filter: grayscale(1);
+	width: 100%;
+	height: 450px;
+	padding-bottom: 20px;
+}
+.accsesswrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+.indexul{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.indexli{
+	padding: 1em;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	background-color: #111;
+}
+.indexli:hover{
+	position: relative;
+	background-color: #555;
+	font-style: italic;
+}
+.indexli:hover::after{
+	content: "";
+	position: absolute;
+	right: 20px;
+	width: 20px;
+	height: 20px;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	top: 20px;
+}
+.indexli:hover::before{
+	content: "";
+	position: absolute;
+	width: 20px;
+	top: 9px;
+	height: 40px;
+	right: 32px;
+	border-right: 2px solid #fff;
+	transform: rotate(45deg);
+}
+.subh1{
+	text-align: center;
+	font-size: 4em;
+}
+.subdivwrap{
+	width: 95%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.subh2{
+	margin-top: 100px;
+	font-size: 2em;
+	color: #999;
+}
+.comli{
+	display: flex;
+	padding-bottom: 1em;
+}
+.comleft{
+	flex-shrink: 0;
+	width: 8em;
+	color: #999;
+}
+.dlflex{
+	display: flex;
+	padding-bottom: 1em;
+}
+.comdt{
+	flex-shrink: 0;
+	width: 8em;
+	color: #999;
+}
+.footerwrap{
+	border-top: 2px solid #fff;
+	margin-top: 200px;
+	padding:1em 0;
+}
+.footerp{
+	font-size: 2em;
+}
